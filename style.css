@@ -1,0 +1,135 @@
+:root {
+    --imperial-purple: #4A1525;
+    --roman-gold: #D4AF37;
+    --marble-white: #F4F1EA;
+    --stone-dark: #2C2A29;
+    --travertine: #FFFDF9;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif; /* Classical Serif Font */
+    background-color: var(--marble-white);
+    color: var(--stone-dark);
+    line-height: 1.6;
+}
+header {
+    background-color: var(--imperial-purple);
+    border-bottom: 5px double var(--roman-gold);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+header h1 {
+    color: var(--roman-gold);
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 1.5rem;
+}
+nav a {
+    color: var(--marble-white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    color: var(--roman-gold);
+    border-bottom: 2px solid var(--roman-gold);
+}
+main {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+section {
+    background-color: var(--travertine);
+    border: 1px solid #E0DCD3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+h2 {
+    color: var(--imperial-purple);
+    border-bottom: 2px solid var(--roman-gold);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+}
+footer {
+    background-color: var(--stone-dark);
+    color: var(--marble-white);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    border-top: 3px solid var(--roman-gold);
+}
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background: #fff;
+    padding: 1.5rem;
+    border-left: 4px solid var(--imperial-purple);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.roman-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.roman-form label {
+    font-weight: bold;
+    color: var(--imperial-purple);
+}
+
+.roman-form input, .roman-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    font-family: inherit;
+}
+
+.roman-form button {
+    background-color: var(--imperial-purple);
+    color: var(--roman-gold);
+    border: 2px solid var(--roman-gold);
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.roman-form button:hover {
+    background-color: var(--roman-gold);
+    color: var(--imperial-purple);
+}
