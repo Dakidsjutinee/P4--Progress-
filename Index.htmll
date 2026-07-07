@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Roman Empire | Home</title>
+    <meta
+      name="description"
+      content="Explore the grandeur, architecture, and military history of ancient Rome. Step into the Imperium Romanum today."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Romanum De Piyu</h1>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="history.html">History & Culture</a>
+        <a href="contact.html">Enlist / Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        style="text-align: center; border-left: 4px solid var(--roman-gold)"
+      >
+        <h3>Words of the Ancients</h3>
+        <p
+          id="roman-quote"
+          style="
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--imperial-purple);
+          "
+        >
+          Loading words of wisdom...
+        </p>
+      </section>
+
+      <section>
+        <h2>Welcome to Rome</h2>
+        <p>
+          Step back into the world of builders, emperors, and philosophers. The
+          legacy of ancient Rome continues to shape our laws, engineering,
+          language, and culture today. Explore the grandeur of the eternal city.
+        </p>
+      </section>
+
+      <section>
+        <h2>The Three Pillars of Success</h2>
+        <div class="flex-container">
+          <div class="card">
+            <h3>🏛️ Architecture</h3>
+            <p>
+              From arches to aqueducts, Roman engineering mastered concrete to
+              reshape the ancient landscape permanently.
+            </p>
+          </div>
+          <div class="card">
+            <h3>📜 Roman Law</h3>
+            <p>
+              The foundations of modern legal frameworks began on the Twelve
+              Tables in the heart of the Roman Forum.
+            </p>
+          </div>
+          <div class="card">
+            <h3>⚔️ The Legions</h3>
+            <p>
+              Unmatched discipline and strategy allowed Rome to expand across
+              three continents surrounding the Mediterranean.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Adriel Justine Danga</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
