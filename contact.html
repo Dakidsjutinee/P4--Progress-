@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Roman Empire | Enlist</title>
+    <meta
+      name="description"
+      content="Contact the Roman Senate or enlist to serve the glorious Romanum De Piyu."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Romanum De Piyu</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History & Culture</a>
+        <a href="contact.html" class="active">Enlist / Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Enlist in the Empire</h2>
+        <p>
+          Do you have questions about Roman history, or do you want to join the
+          legions? Send a message directly to the Senate house.
+        </p>
+
+        <form class="roman-form" id="enlistForm" action="#" method="POST">
+          <div>
+            <label for="name">Your Name (or Roman Alias):</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g., Marcus Aurelius"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">Your Electronic Scroll (Email):</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="name@domain.com"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="message">Message to the Consul:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your missive here..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Dispatch</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Adriel Justine Danga</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
